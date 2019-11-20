@@ -5,9 +5,12 @@ Android application for Laundry service providers.
 -Firebase -  https://firebase.google.com/ (Authentication,storage and firebase database)
 
 -Daimajia - https://github.com/daimajia (Slider and animations)
+
 -PullRefreshLayout - https://github.com/baoyongzhang/android-PullRefreshLayout
+
 -SearchableSpinner - https://github.com/miteshpithadiya/SearchableSpinner
--Picasso - https://github.com/square/picasso
+
+- Picasso - https://github.com/square/picasso
 
 ## Setup
 This application uses firebase at the backend.So you need to set up firebase in your android application.
