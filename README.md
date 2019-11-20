@@ -3,6 +3,7 @@ Android application for Laundry service providers.
 
 ## Libraries Required
 -Firebase -  https://firebase.google.com/ (Authentication,storage and firebase database)
+
 -Daimajia - https://github.com/daimajia (Slider and animations)
 -PullRefreshLayout - https://github.com/baoyongzhang/android-PullRefreshLayout
 -SearchableSpinner - https://github.com/miteshpithadiya/SearchableSpinner
