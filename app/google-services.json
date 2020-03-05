@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171094062859",
+    "firebase_url": "https://laundryclub-c6e5b.firebaseio.com",
+    "project_id": "laundryclub-c6e5b",
+    "storage_bucket": "laundryclub-c6e5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171094062859:android:1fec8c1d3795807f",
+        "android_client_info": {
+          "package_name": "com.example.lc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171094062859-nmt1ikchm5f3gh9krcf6rg2904thsika.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lc",
+            "certificate_hash": "ebc73697e6fc1f71c16cee085c1cf7d357cbe355"
+          }
+        },
+        {
+          "client_id": "171094062859-0tm46gud1gtiasa0doevhvsn4r79vsjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGt1cllYlo_tR4xsb7UGo0UxVo8-m-_dU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171094062859-0tm46gud1gtiasa0doevhvsn4r79vsjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

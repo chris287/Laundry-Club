@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lc.home"
+    android:orientation="vertical"
+    android:background="@mipmap/lc"
+
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/imageroundbutton"
+            android:foregroundGravity="top"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/user"
+            android:id="@+id/user_imgbttn"
+            />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="220dp"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/imageroundbutton"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/wash_list"
+            android:id="@+id/wash_imgbtn"
+            android:layout_toRightOf="@id/user_imgbttn"/>
+
+
+
+    <ImageButton
+        android:id="@+id/accounts_imgbtn"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/imageroundbutton"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/accounts"
+        android:layout_below="@+id/wash_imgbtn"
+        />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:id="@+id/store_imgbtn"
+        android:layout_margin="5dp"
+        android:background="@drawable/imageroundbutton"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/query"
+        android:layout_toRightOf="@id/accounts_imgbtn"
+        android:layout_below="@+id/wash_imgbtn"/>
+    </RelativeLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lc.adminRegister"
+    android:gravity="center">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_head"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etUname"
+        android:hint="Enter full Name"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etUemail"
+        android:hint="Enter Email"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etpsw"
+        android:hint="@string/reg_psw"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etphno"
+        android:hint="Mobile Number"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etregNo"
+        android:hint="@string/reg_regno"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_etrmNo"
+        android:hint="@string/reg_rmno"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="@drawable/custedittext"
+        android:padding="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_btn"
+        android:background="@drawable/round_button"
+        android:text="@string/reg_bt"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:visibility="gone"
+    android:layout_centerVertical="true"
+    android:progressBackgroundTint="@color/black"
+    android:id="@+id/progress"/>
+</RelativeLayout>

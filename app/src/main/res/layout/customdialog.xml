@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/layout_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    >
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border"
+    android:backgroundTint="@color/black"
+    android:layout_margin="6dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:textColor="#EE4B4B"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="@dimen/large"
+        />
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:singleLine="true">
+    </EditText>
+</FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="@color/black"
+        android:layout_margin="6dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RegNo :"
+            android:textColor="#EE4B4B"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/large"
+            />
+
+    <EditText
+        android:id="@+id/editRegNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:singleLine="true"
+        >
+    </EditText>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="@color/black"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RoomNo :"
+            android:textColor="#EE4B4B"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/large"
+            />
+    <EditText
+        android:id="@+id/editRoomNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="87dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:singleLine="true"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="@color/black"
+        android:layout_margin="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MobNo :"
+            android:textColor="#EE4B4B"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/large"
+            />
+
+    <EditText
+        android:id="@+id/editMobNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        android:ems="10"
+        android:singleLine="true"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_border"
+        android:backgroundTint="@color/black"
+        android:layout_margin="6dp">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button1"
+    android:text="edit"
+    android:textColor="@color/white"
+    android:background="@color/black"
+    android:layout_gravity="center_horizontal"/>
+    </FrameLayout>
+</LinearLayout>
+

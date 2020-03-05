@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lc.adduser_frag"
+    android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextregno"
+            android:hint="@string/regnoet"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/custedittext"
+            android:padding="8dp"
+            android:inputType="number"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextrmno"
+            android:hint="@string/rmnoet"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/custedittext"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextuname"
+            android:hint="@string/unameet"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/custedittext"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edittextmobno"
+            android:hint="@string/reg_mobno"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/custedittext"
+            android:padding="8dp"
+            android:inputType="phone"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/adduser"
+            android:textColor="@color/white"
+            android:background="@drawable/button_name"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/adduserbtn"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/adduserRequire"
+            android:text="All the fields are required"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lc.viewuser_frag"
+    android:orientation="vertical">
+
+<com.baoyz.widget.PullRefreshLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/swipeLayout"
+    app:refreshType="smartisan"
+    android:background="#000 ">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewuser_listview"
+        android:focusable="true"
+        android:background="@color/black"
+        />
+
+</com.baoyz.widget.PullRefreshLayout>
+
+
+</LinearLayout>

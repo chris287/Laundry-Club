@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Itemname"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="@string/accounts_title"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        />
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/editimgbtn"
+        android:layout_alignBaseline="@+id/Itemname"
+        android:background="@drawable/ic_edit_black_24dp"
+        android:layout_toLeftOf="@id/imgbtn"
+        android:layout_marginRight="8dp"
+        android:focusable="false"/>
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:id="@+id/imgbtn"
+        android:layout_alignBaseline="@+id/Itemname"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_delete_black_24dp"
+        android:focusable="false"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Iteregno"
+        android:layout_below="@id/Itemname"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/ItemRmno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Iteregno"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/ItemMobNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ItemRmno"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#EE4B4B"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+
+
+
+
+</RelativeLayout>

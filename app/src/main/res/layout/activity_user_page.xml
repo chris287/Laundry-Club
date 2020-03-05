@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lc.user_page"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add User"
+            android:layout_weight="2"
+            android:textColor="@color/white"
+            android:background="@drawable/button_name"
+            android:layout_margin="10dp"
+            android:onClick="adduserfragment"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View User"
+            android:layout_weight="2"
+            android:textColor="@color/white"
+            android:background="@drawable/button_name"
+            android:layout_margin="10dp"
+            android:onClick="viewuserfragment"
+            />
+
+
+    </LinearLayout>
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag"
+    android:name="com.example.lc.dummy">
+
+</fragment>
+
+</LinearLayout>

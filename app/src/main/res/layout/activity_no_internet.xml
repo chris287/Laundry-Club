@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".No_internet"
+    android:orientation="vertical"
+    android:background="@color/black">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_signal_cellular_connected_no_internet_0_bar_black_24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Connection"
+        android:textColor="@color/white_bright"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:textFontWeight="1500dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_internet_error_message"
+        android:textColor="@color/white"
+        android:paddingHorizontal="70dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRY AGAIN"
+        android:textColor="@color/white_bright"
+        android:background="@color/red"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/try_again"/>
+
+    <ProgressBar
+        android:id="@+id/internet_connection_progressBar"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"
+        android:visibility="gone" />
+
+</LinearLayout>

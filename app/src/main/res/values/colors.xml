@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+    <color name="white">#ffff</color>
+    <color name="white_bright">#FFFFFF</color>
+    <color name="hint_col">#5c5c8a</color>
+    <color name="black">#000000</color>
+    <color name="red">#F80404</color>
+    <color name="hint">#FFDAD3C9</color>
+    <color name="blue">#045796</color>
+</resources>

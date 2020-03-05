@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LaundryClub</string>
+    <string name="log_in">Sign In</string>
+    <string name="user_hint">Username</string>
+    <string name="pass_hint">Password</string>
+    <string name="error_message">Invalid Username or Password!</string>
+    <string name="image_button_users">Users</string>
+    <string name="home_title">Home</string>
+    <string name="user_title">Users Info</string>
+    <string name="wash_title">Wash List</string>
+    <string name="accounts_title">Accounts</string>
+    <string name="query_title">Queries And Complaints</string>
+    <string name="regnoet">Enter Reg No</string>
+    <string name="rmnoet">Enter Room No</string>
+    <string name="unameet">Enter Name</string>
+    <string name="adduser">Add User</string>
+    <string name="registerText">New Sign Up</string>
+    <string name="reg_head">Sign Up</string>
+    <string name="reg_uname">Usename</string>
+    <string name="reg_psw">Password</string>
+    <string name="reg_regno">Register No</string>
+    <string name="reg_rmno">Room No</string>
+    <string name="reg_bt">Submit</string>
+    <string name="reg_mobno">Enter Mobile No</string>
+    <string name="connection_internet_error_message">We could not establish a connection
+        \nwith our servers.Please try again \n when
+        you are connected to the internet.</string>
+    <string name="edit_user">Edit</string>
+</resources>
